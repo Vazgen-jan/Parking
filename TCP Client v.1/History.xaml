@@ -1,0 +1,23 @@
+﻿<Window x:Class="TCP_Client_v._1.History"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TCP_Client_v._1"
+        mc:Ignorable="d"
+        Title="History" Height="476" Width="969">
+    <Grid>
+        <ListView x:Name="listView" Margin="0,0,0,41" >
+            <ListView.View >
+                <GridView>
+                    <GridViewColumn Header="Հ.Հ." DisplayMemberBinding="{Binding index}" Width="100"/>
+                    <GridViewColumn Header="ՄՈւՏՔԻ ԺԱՄԸ" DisplayMemberBinding="{Binding time1}" Width="160"/>
+                    <GridViewColumn Header="ԵԼՔԻ ԺԱՄԸ"  DisplayMemberBinding="{Binding  time2}"  Width="160"/>
+                    <GridViewColumn Header="ԿԱՅԱՆՄԱՆ ԱՐԺԵՔ"  DisplayMemberBinding="{Binding listview_price}"  Width="180"/>
+                    <GridViewColumn Header="ԵԼՔԻ ՀԱՄԱՐԸ"  DisplayMemberBinding="{Binding listview_Out_ID}"  Width="180"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>

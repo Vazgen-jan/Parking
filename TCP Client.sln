@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking Server v.1", "TCP Client v.1\Parking Server v.1.csproj", "{B9FD35A9-33A4-4495-962B-915A21A27DBD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Parking Server Setup", "Setup2\Setup2.vdproj", "{7BC6172A-729E-4751-80D4-CE4206C76584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9FD35A9-33A4-4495-962B-915A21A27DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FD35A9-33A4-4495-962B-915A21A27DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FD35A9-33A4-4495-962B-915A21A27DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FD35A9-33A4-4495-962B-915A21A27DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC6172A-729E-4751-80D4-CE4206C76584}.Debug|Any CPU.ActiveCfg = Debug
+		{7BC6172A-729E-4751-80D4-CE4206C76584}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
